@@ -105,7 +105,7 @@ def hoofdprogramma():
 			elif optie == 5:
 				clear = lambda: os.system('cls')
 				clear()
-				print("Totziens")
+				print("Totziens!")
 				break
 			else:
 				print("Oops het ingevoerd getal is geen menu optie")
