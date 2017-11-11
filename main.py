@@ -78,6 +78,10 @@ def kluis_teruggeven():
 	print(message)
 # eind def kluis_teruggeven
 
+def clear():
+    os.system( 'cls' )
+    print("Totziens!")
+#eind def clear
 
 def hoofdprogramma():
 	while True:
@@ -103,9 +107,7 @@ def hoofdprogramma():
 				print("\nKluis terug geven:")
 				kluis_teruggeven()
 			elif optie == 5:
-				clear = lambda: os.system('cls')
 				clear()
-				print("Totziens!")
 				break
 			else:
 				print("Oops het ingevoerd getal is geen menu optie")
